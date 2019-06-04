@@ -21,4 +21,8 @@ Route::get('acceuil', function () {
     return view('acceuil');
 });
 
+Route::get('inscription', function () {
+    return view('inscription');
+});
+
 
